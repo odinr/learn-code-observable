@@ -1,0 +1,18 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: var(--color, rgba(0, 0, 0, 0.87));
+}
+body {
+  line-height: 1;
+  margin: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Ubuntu";
+}

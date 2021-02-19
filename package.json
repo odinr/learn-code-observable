@@ -1,0 +1,50 @@
+{
+  "name": "@learn-codin/observable",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "prebuild": "rm -rf docs",
+    "build": "webpack --mode=production",
+    "predeploy": "npm run build && git add docs",
+    "deploy": "git commit -m'updated 📑' && git push"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@codin/cwc-code-highlight": "^0.1.7",
+    "@material/mwc-icon": "^0.15.0",
+    "@material/mwc-list": "^0.15.0",
+    "Prism": "^2.0.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.5.3",
+    "extract-loader": "^5.0.1",
+    "file-loader": "^6.0.0",
+    "html-webpack-tags-plugin": "^2.0.17",
+    "lit-element": "^2.3.1",
+    "lit-html": "^1.2.1",
+    "lit-scss-loader": "^1.0.0",
+    "rxjs": "^6.5.5",
+    "sass-loader": "^8.0.2",
+    "save-dev": "0.0.1-security",
+    "ts-loader": "^7.0.2",
+    "tslib": "^1.11.1",
+    "typescript": "^4.1.5",
+    "url-pattern": "^1.0.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@material/layout-grid": "^6.0.0",
+    "@material/mwc-button": "^0.15.0",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "html-webpack-plugin": "^4.3.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass": "^1.26.5",
+    "script-ext-html-webpack-plugin": "^2.1.4"
+  }
+}

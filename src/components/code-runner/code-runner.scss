@@ -1,0 +1,44 @@
+mwc-list-item,
+pre {
+  font-family: var(--code-font-family, "Fira Code", "Ubuntu Mono", monospace);
+}
+mwc-list-item {
+  margin: 0.5rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+mwc-icon {
+  //   font-size: 30px;
+  .log & {
+    color: #690;
+  }
+  .warn & {
+    color: #e90;
+  }
+  .error & {
+    color: #dd4a68;
+  }
+}
+.result {
+  display: block;
+  overflow: hidden;
+  margin: 0.5rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  & > div {
+    margin: 1rem;
+    display: block;
+  }
+  .error__stack {
+    color: #dd4a68;
+  }
+}
+
+#run {
+  margin: 0.5rem;
+  margin-top: 2rem;
+  float: right;
+  background-color: #fff;
+}

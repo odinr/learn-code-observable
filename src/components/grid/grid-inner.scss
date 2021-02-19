@@ -1,0 +1,14 @@
+@use "sass:map";
+@use "./variables";
+@use "./mixins";
+
+:host {
+  @each $size in map.keys(variables.$columns) {
+    @include mixins.media-query_($size) {
+      $margin: map.get(variables.$default-margin, $size);
+      $gutter: map.get(variables.$default-gutter, $size);
+
+      @include mixins.inner($size, $margin, $gutter);
+    }
+  }
+}

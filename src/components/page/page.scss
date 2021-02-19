@@ -1,0 +1,24 @@
+cwc-code-highlight {
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,.25);
+}
+
+cwc-code-highlight,
+cwc-learn-code-container {
+    font-size: 1rem;
+}
+
+mdc-grid {
+    background: #fff;
+    box-shadow: 5px 10px 20px 0px rgba(0,0,0,.25);
+    min-height: calc(100vh - 60px);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.lead ::slotted(*){
+    font-size: 1.2em;
+    background-color: rgba(0,0,0,.05);
+    padding: 10px 40px;
+}
+
