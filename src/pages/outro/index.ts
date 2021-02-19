@@ -29,11 +29,11 @@ export const render = html`
         <div class="links">
             <span>
                 <img src="${imageUrl}" />   
-                <a href="https://odinr.github.io/learn-code-async/">https://odinr.github.io/learn-code-observable/</a>
+                <a href="https://odinr.github.io/learn-code-observable/">https://odinr.github.io/learn-code-observable/</a>
             </span>
             <span>
                 <img src="${imageGithub}" />   
-                <a href="https://github.com/odinr/learn-code-async">https://github.com/odinr/learn-code-observable</a>
+                <a href="https://github.com/odinr/learn-code-observable">https://github.com/odinr/learn-code-observable</a>
             </span>
         </div>
     </cwc-learn-page>
