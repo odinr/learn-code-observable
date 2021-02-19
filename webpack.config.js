@@ -13,8 +13,8 @@ del.sync(outDir);
 module.exports = (env, argv) => {
   const {mode = "development"} = argv;
   const dev = mode === "development";
-  const base = dev ? '/' : 'https://odinr.github.io/learn-code-async/';
-  const publicPath =  dev ? "/" : "/learn-code-async/";
+  const base = dev ? '/' : 'https://odinr.github.io/learn-code-observable/';
+  const publicPath =  dev ? "/" : "/learn-code-observable/";
   return {
     entry: "./src/index.ts",
     output: {
